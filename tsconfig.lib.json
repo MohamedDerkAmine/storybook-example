@@ -1,0 +1,32 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "dist",
+    "rootDir": "src",
+    "outDir": "dist",
+    "composite": false,
+    "tsBuildInfoFile": null
+  },
+  "include": [
+    "src/lib.ts",
+    "src/v1.ts",
+    "src/v2.ts",
+    "src/themes.ts",
+    "src/components/v1/**/*.ts",
+    "src/components/v1/**/*.tsx",
+    "src/components/v2/**/*.ts",
+    "src/components/v2/**/*.tsx",
+    "src/theme/**/*.ts"
+  ],
+  "exclude": [
+    "**/*.stories.ts",
+    "**/*.stories.tsx",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "src/App.tsx",
+    "src/main.tsx"
+  ]
+}
