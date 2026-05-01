@@ -1,5 +1,5 @@
 {
-  "name": "@your-scope/design-system",
+  "name": "@storybook-example/design-system",
   "version": "0.1.0",
   "description": "A versioned React + MUI design system with v1 and v2 component sets, light/dark themes, and Storybook docs.",
   "type": "module",
