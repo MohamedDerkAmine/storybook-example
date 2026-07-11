@@ -1,0 +1,8 @@
+{
+  "name": "@mohamedd/tsconfig",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Shared TypeScript configurations for the @mohamedd/ui monorepo.",
+  "license": "MIT",
+  "files": ["base.json", "react-library.json", "nextjs.json"]
+}
