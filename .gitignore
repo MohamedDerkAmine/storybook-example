@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-# Logs
-logs
-*.log
-=======
 # deps
 node_modules
 .pnpm-store
 
 # build outputs
 dist
+dist-ssr
 build
 .next
 out
@@ -23,40 +19,27 @@ storybook-static
 .env.*.local
 
 # logs
->>>>>>> feat/ui
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
-<<<<<<< HEAD
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
 *storybook.log
-storybook-static
-temp_auto_push.bat
-temp_interactive_push.bat
-=======
+chromatic.log
+build-storybook.log
+
 # editor
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
 .idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # OS
 .DS_Store
@@ -72,7 +55,7 @@ coverage
 # typescript
 *.tsbuildinfo
 
-# chromatic
-chromatic.log
-build-storybook.log
->>>>>>> feat/ui
+# misc
+temp_auto_push.bat
+temp_interactive_push.bat
+branch_structure.json
