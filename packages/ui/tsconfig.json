@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@mohamedd/tsconfig/react-library.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "include": ["src", ".storybook", "vite.config.ts", "vitest.config.ts"],
+  "exclude": ["node_modules", "dist", "storybook-static", "**/*.test.ts", "**/*.test.tsx"]
+}

@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "@storybook-example/design-system",
   "version": "0.1.0",
   "description": "A versioned React + MUI design system with v1 and v2 component sets, light/dark themes, and Storybook docs.",
@@ -89,5 +90,48 @@
   },
   "publishConfig": {
     "access": "public"
+=======
+  "name": "@mohamedd/ui-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Monorepo for @mohamedd/ui — a minimalist React design system.",
+  "author": "Mohamed D.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedDerkAmine/ui.git"
+  },
+  "homepage": "https://github.com/MohamedDerkAmine/ui#readme",
+  "bugs": {
+    "url": "https://github.com/MohamedDerkAmine/ui/issues"
+  },
+  "engines": {
+    "node": ">=22",
+    "pnpm": ">=9"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "storybook": "turbo run storybook",
+    "build-storybook": "turbo run build-storybook",
+    "clean": "turbo run clean && rimraf node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,css}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md,css}\"",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=@mohamedd/ui && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.9",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "rimraf": "^6.0.1",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+>>>>>>> feat/ui
   }
 }
